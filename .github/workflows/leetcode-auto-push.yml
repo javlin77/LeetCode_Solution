@@ -1,0 +1,23 @@
+name: Auto Push LeetCode Solutions
+
+on:
+  workflow_dispatch:  # Manual trigger from GitHub Actions tab
+
+jobs:
+  auto-push:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Git
+        run: |
+          git config --global user.name "javlin77"
+          git config --global user.email "javlin77@users.noreply.github.com"
+
+      - name: Commit and Push LeetCode Solutions
+        run: |
+          git add .
+          git diff --cached --quiet || git commit -m "Push 30 new LeetCode solutions 🚀"
+          git push origin main
