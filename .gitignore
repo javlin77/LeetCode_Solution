@@ -1,0 +1,51 @@
+# Compiled Java class files
+*.class
+
+# Log files
+*.log
+
+# BlueJ files
+*.ctxt
+
+# Mobile Tools for Java (J2ME)
+.mtj.tmp/
+
+# VS Code settings
+.vscode/
+
+# IntelliJ IDEA settings
+*.iml
+.idea/
+
+# Eclipse settings
+.project
+.classpath
+.settings/
+
+# Build directories
+/bin/
+/build/
+/out/
+
+# Mac OS
+.DS_Store
+
+# Windows thumbnail cache
+Thumbs.db
+
+# Maven
+target/
+
+# Gradle
+.gradle/
+build/
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+*.old
+*.orig
+
+# Java crash logs
+hs_err_pid*
