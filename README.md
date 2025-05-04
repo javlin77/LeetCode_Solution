@@ -22,8 +22,8 @@ I chose to **categorize them by difficulty level**, which reflects the true natu
 - 🔹 **10 LeetCode questions** under each difficulty level (`Easy`, `Medium`, `Hard`)
 - 🔹 Written in **Java**, with clear formatting and naming
 - 🔹 Each solution contains:
-  - 🚀 An **optimized solution**
-  - 🏷️ A comment header listing:
+  - An **optimized solution**
+  - A comment header listing:
     - LeetCode problem number and title
     - Key topics/concepts involved
 
